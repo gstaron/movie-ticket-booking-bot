@@ -1,0 +1,3 @@
+docker pull mcr.microsoft.com/azure-cognitive-services/luis:latest
+npm run start_local &
+docker run --rm -it -p 5000:5000 --memory 4g --cpus 2 --mount type=bind,src=/home/anly/Code/movie-ticket-booking-bot-eva/input,target=/input --mount type=bind,src=/home/anly/Code/movie-ticket-booking-bot-eva/output,target=/output mcr.microsoft.com/azure-cognitive-services/luis:latest Eula=accept Billing=https://westus.api.cognitive.microsoft.com/luis/v2.0/ ApiKey=

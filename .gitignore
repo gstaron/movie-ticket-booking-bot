@@ -1,0 +1,6 @@
+/output/
+/.env*
+!.env.default
+*.bot
+*.log
+/setHerokuConfigVars.sh

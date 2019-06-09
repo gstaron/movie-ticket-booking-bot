@@ -1,0 +1,22 @@
+{
+  "name": "movie-ticket-booking-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start_local": "node -r dotenv/config app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.13.1",
+    "botbuilder-azure": "^3.0.4",
+    "mocha": "^6.1.4",
+    "nock": "^10.0.6",
+    "restify": "^8.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0"
+  }
+}

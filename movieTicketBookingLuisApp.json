@@ -1,0 +1,136 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "MovieTicketBooking",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "BookTicket"
+    },
+    {
+      "name": "Greet"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "ShowNowPlaying"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "Movies",
+      "subLists": [
+        {
+          "canonicalForm": "Avengers",
+          "list": []
+        },
+        {
+          "canonicalForm": "Jurassic world",
+          "list": []
+        },
+        {
+          "canonicalForm": "Rampage",
+          "list": []
+        },
+        {
+          "canonicalForm": "The Incredibles 2",
+          "list": []
+        },
+        {
+          "canonicalForm": "Obchod na Korze",
+          "list": []
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "number",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "2 tickets for the incredibles",
+      "intent": "BookTicket",
+      "entities": []
+    },
+    {
+      "text": "book me 3 tickets for jurassic world",
+      "intent": "BookTicket",
+      "entities": []
+    },
+    {
+      "text": "can i have 4 tickets for the movie rampage",
+      "intent": "BookTicket",
+      "entities": []
+    },
+    {
+      "text": "hello there",
+      "intent": "Greet",
+      "entities": []
+    },
+    {
+      "text": "hey there",
+      "intent": "Greet",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greet",
+      "entities": []
+    },
+    {
+      "text": "howdey",
+      "intent": "Greet",
+      "entities": []
+    },
+    {
+      "text": "i need 3 tickets for avengers",
+      "intent": "BookTicket",
+      "entities": []
+    },
+    {
+      "text": "i would like to book ticket",
+      "intent": "BookTicket",
+      "entities": []
+    },
+    {
+      "text": "movies in theater",
+      "intent": "ShowNowPlaying",
+      "entities": []
+    },
+    {
+      "text": "show me the currently running movies",
+      "intent": "ShowNowPlaying",
+      "entities": []
+    },
+    {
+      "text": "so what's playing now",
+      "intent": "ShowNowPlaying",
+      "entities": []
+    },
+    {
+      "text": "what are the movies currently running",
+      "intent": "ShowNowPlaying",
+      "entities": []
+    },
+    {
+      "text": "what movies are currently playing",
+      "intent": "ShowNowPlaying",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
